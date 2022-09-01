@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.color{
+    
+    
+    border-radius: 90%;
+    box-shadow: 0 5px 15px rgba(225, 8, 12, 0.1), 0 6px 6px rgba(215, 8, 8, 0.1);
+   
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    padding: 20px 20px;
+   top: 20%;
+   left: 45%;
+}
+.container{
+    top: 30%;
+   left: 45%;
+   position:absolute;
+}
+
+
+.color:active {
+    transform: scale(0.98);
+}
+
+.color:focus {
+    outline: 0;
+}
+.letter{
+    color: rgb(242, 245, 247);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    padding: 200px 700px;
+}
+
+
+
+
+
+
+
